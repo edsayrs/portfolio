@@ -1,0 +1,326 @@
+/*
+colors:
+light-grey:#d7d7d7
+teal:#1b8d82
+navy/purple:#160675
+lighter purple:#676187
+light teal:#99c7c2
+light purple:#a59dd1
+*/
+
+*, 
+*:before, 
+*:after{
+	-moz-box-sizing:border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	
+}
+
+html, body{
+	height:100%;
+}
+body{
+	font-family:'futura-pt', sans-serif;
+	text-transform:uppercase;
+	
+}
+
+	
+
+.center{
+	width:100%;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+	float:none;
+	padding:none;
+}
+.resume-wrap{
+	padding-left:15%;
+	padding-right:15%;
+	float:none;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+
+/*
+.resume-heading{
+	padding-top:200px;
+}
+.resume-heading  h1{
+
+	font-size:100px;
+	color:#160675;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	
+}
+*/
+
+
+.resume-contact{
+	background-color: #676187;
+	box-shadow: 0px -3px 10px grey;
+}
+.resume-contact h1{
+	font-size:40px;
+	color:#99c7c2;		
+	line-height: 1.5em;
+	font-weight:300;
+}
+.resume-contact p{
+   
+	font-size:14px;
+/* 	font-size:1.2vw; */
+	color:white;	
+	padding-bottom: 10px;
+}
+
+.resume-edu{
+	padding-top:4px;
+	background-color:#a59dd1;
+	box-shadow: 0px -3px 10px grey;
+
+}
+
+.resume-edu h1{	
+	font-size:40px;
+	color:white;	
+	font-weight:300;
+	
+}
+.resume-edu  h2{
+	font-size:20px;
+	color:#1b8d82;	
+	margin-left: 4%;
+	text-align: left;
+	line-height:1em;
+}
+.resume-edu  h2 span{
+	font-size:20px;
+	color:white;	
+	margin-left: 4%;
+	text-align: left;
+	line-height:1em;
+	font-weight:300;
+}
+
+.resume-edu  h3{
+	font-size:14px;
+	color:black;	
+	text-align: left;
+	margin-left: 50px;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+	
+	
+}
+
+.resume-edu h4{
+	font-size:14px;
+	color:black;	
+	margin-left:50px;
+	
+}
+.resume-experience{
+	padding-top:4px;
+	background-color:#1b8d82;
+	box-shadow: 0px -3px 10px grey;
+
+}
+
+.resume-experience h1{
+	font-size:40px;
+	color:white;	
+	font-weight:300;
+}
+
+.resume-experience  h2{
+	font-size:20px;
+	color:#a59dd1;	
+	margin-left: 4%;
+	text-align: left;
+	line-height:1em;
+}
+.resume-experience  h2 span{
+	font-size:20px;
+	color:white;	
+	margin-left: 4%;
+	text-align: left;
+	line-height:1em;
+	font-weight:300;
+}
+
+.resume-experience h3{
+	font-size:14px;
+	color:black;	
+	text-align: left;
+	margin-left: 50px;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+}
+.resume-experience a:link{
+	font-size:14px;
+	color:#a59dd1;
+	text-align: left;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+	text-decoration:none;
+	
+	
+}
+.resume-experience a:visited{
+	font-size:14px;
+	color:#a59dd1;		
+	text-align:left;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+	text-decoration:none;
+	
+	
+}.resume-experience a:hover{
+	font-size:14px;
+	color:#676187;	
+	text-align: left;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+	text-decoration:none;
+	
+	
+}.resume-experience a:active{
+	font-size:14px;
+	color:#a59dd1;	
+	text-align: left;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+	text-decoration:none;
+	
+}
+
+.resume-experience ul{
+	list-style-type: circle;
+}
+.resume-experience li{
+	font-size:14px;
+	font-family:'futura-pt', sans-serif;
+	margin-left:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:black;
+}
+
+.resume-skills{
+	padding-top:4px;
+	background-color:#99c7c2;
+	box-shadow: 0px -3px 10px grey;
+
+}
+
+.resume-skills h1{
+	font-size:40px;
+	color:white;	
+	font-weight:300;
+}
+
+.resume-skills ul{
+	list-style-type: circle;
+}
+.resume-skills li{
+	font-size:14px;
+	font-family:'futura-pt', sans-serif;
+	margin-left:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:black;
+}
+.resume-skills h3{
+	font-size:14px;
+	color:black;	
+	text-align: left;
+	margin-left: 50px;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+}
+
+.other-sites{
+	padding-top:4px;
+	background-color:#676187;
+	box-shadow: 0px -3px 10px grey;
+	padding-bottom: 50px;
+	
+}
+.other-sites h1{
+	font-size:40px;
+	color:white;	
+	font-weight:300;
+
+}
+
+.other-sites ul{
+	list-style-type: circle;
+}
+.other-sites li{
+	font-size:14px;
+	font-family:'futura-pt', sans-serif;
+	margin-left:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:black;
+}
+
+
+
+.other-sites a:link{
+	font-size:14px;
+	color:#99c7c2;
+	text-align: left;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+	text-decoration:none;
+	
+	
+}
+.other-sites a:visited{
+	font-size:14px;
+	color:#99c7c2;		
+	text-align:left;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+	text-decoration:none;
+	
+	
+}
+.other-sites a:hover{
+	font-size:14px;
+	color:#1b8d82;	
+	text-align: left;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+	text-decoration:none;
+	
+	
+}
+.other-sites a:active{
+	font-size:14px;
+	color:#99c7c2;		
+	text-align: left;
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height:1em;
+	text-decoration:none;
+	
+}
+teal:#1b8d82light teal:#99c7c2
+
