@@ -25,6 +25,13 @@ body{
 	text-transform:uppercase;
 	
 }
+.resume-container{
+	margin-right: 15%;
+  	margin-left: 15%;
+  	margin-top:4%;
+  	*zoom: 1;
+  	box-shadow: 0px -3px 10px grey; 
+}
 
 	
 
@@ -61,12 +68,12 @@ body{
 
 
 .resume-contact{
-	background-color: #676187;
-	box-shadow: 0px -3px 10px grey;
+	background-color:white;
+	
 }
 .resume-contact h1{
 	font-size:40px;
-	color:#99c7c2;		
+	color:#160675;		
 	line-height: 1.5em;
 	font-weight:300;
 }
@@ -74,14 +81,14 @@ body{
    
 	font-size:14px;
 /* 	font-size:1.2vw; */
-	color:white;	
+	color:#1b8d82;	
 	padding-bottom: 10px;
 }
 
 .resume-edu{
 	padding-top:4px;
 	background-color:#a59dd1;
-	box-shadow: 0px -3px 10px grey;
+	/* box-shadow: 0px -3px 10px grey; */
 
 }
 
@@ -128,7 +135,7 @@ body{
 .resume-experience{
 	padding-top:4px;
 	background-color:#1b8d82;
-	box-shadow: 0px -3px 10px grey;
+/* 	box-shadow: 0px -3px 10px grey; */
 
 }
 
@@ -215,12 +222,13 @@ body{
 	text-transform:uppercase;
 	font-weight:bold;
 	color:black;
+	font-weight:300;
 }
 
 .resume-skills{
 	padding-top:4px;
 	background-color:#99c7c2;
-	box-shadow: 0px -3px 10px grey;
+/* 	box-shadow: 0px -3px 10px grey; */
 
 }
 
@@ -240,6 +248,7 @@ body{
 	text-transform:uppercase;
 	font-weight:bold;
 	color:black;
+	font-weight:300;
 }
 .resume-skills h3{
 	font-size:14px;
@@ -254,7 +263,7 @@ body{
 .other-sites{
 	padding-top:4px;
 	background-color:#676187;
-	box-shadow: 0px -3px 10px grey;
+/* 	box-shadow: 0px -3px 10px grey; */
 	padding-bottom: 50px;
 	
 }
@@ -275,6 +284,7 @@ body{
 	text-transform:uppercase;
 	font-weight:bold;
 	color:black;
+	font-weight:300;
 }
 
 
@@ -322,5 +332,5 @@ body{
 	text-decoration:none;
 	
 }
-teal:#1b8d82light teal:#99c7c2
+
 
