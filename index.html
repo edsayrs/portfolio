@@ -1,13 +1,12 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="Utf-8">
+<meta charset="utf-8">
 <meta name="description" content="Emily Sayrs Development and Design">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Emily Sayrs</title>
 
 <!--bootstrap-->
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="bootstrap-responsive.css" rel="stylesheet" type="text/css">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -46,7 +45,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="#">emily sayrs</a>	
+				<a class="brand" href="index.html">emily sayrs</a>	
 					<ul class="nav nav-collapse collapse"><!--nav-collapse and collapse triggers built in javaScript for responsive nav bar-->
 						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
@@ -57,7 +56,7 @@
 			</div><!--end navbar-inner-->
 		</nav><!--end nav section-->
 	</header>
-<section class="carousel slide" id="showcase">
+<section class="carousel slide hidden-phone" id="showcase">
 	<h1 class="hidden">slider section</h1>
 	<div class="carousel-inner">
 		<div class="item active">
@@ -88,13 +87,14 @@
 						<h3><a href="#section4">See Portfolio</a></h3>
 					</div><!--close carousel caption4-->
 			</div><!--close item4-->
-					<div class="item">
+					<!--
+<div class="item">
 				<h1 class="hidden">Graphic Design</h1>
 					<div class="carousel-caption">
 						<h2>Graphic Design</h2>
 						<h3><a href="#section5">See Portfolio</a></h3>
-					</div><!--close carousel caption5-->
-			</div><!--close item5-->
+					</div><!--close carousel caption5
+			</div>-->
 					<div class="item">
 				<h1 class="hidden">Games</h1>
 					<div class="carousel-caption">
@@ -113,27 +113,26 @@
 				<h2><a href="http://chaninartadvisory.com">Chanin Art Advisory</a></h2>
 				<p>From the spring of 2010 until the beginning of 2013 I worked remotely as a photo retoucher for Kimberly Chanin, principle at Chanin art advisory. The majority of my work involved superimposing photos of prospective pieces into specific spaces desired by the client.  The purpose of this was to simulate how that piece would look in different lighting, backdrops, framing and other variables. </p>
 			</div><!-- end span 5 (left)-->
-			<!--
-<div class="span5">
+			<div class="span5">
 			<a href="#launch-photo-edit" id="photo-edit" class="thumbnail" data-toggle="modal"></a>
 			<section id="launch-photo-edit" class="modal hide fade">
 				<header class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
 					<h3>Kikuo Saito</h3>
 				</header>
-				<div class="modal-body" id="photo-edit-large">
--->
-					<!-- <div id="photo-edit-large"</div> -->
-				<!--
-</div>
+				<div class="modal-body">
+					<div id="photo-edit-large"></div>
+				
+					</div>
 			</section>
 			<h4>click to see detail</h4>
--->
-			<!-- </div> --><!--end div thumbnail-->
-	</div><!--end row fluid -->
+			</div><!--end div thumbnail-->
+	</div>
+	<!--end row fluid-->
 	<div class="row-fluid wrap" id="section1sub">
-	<h2 class="line-title"><span>more work for Chanin Art Advisory</span></h2>
-	<section class="carousel slide" id="photo-edit-thumbs">
+	<h2 class="line-title hidden-phone hidden-tablet"><span>more work for Chanin Art Advisory</span></h2>
+	<h2 class="hidden-desktop">more work for Chanin Art Advisory</h2>
+	<section class="carousel slide hidden-phone" id="photo-edit-thumbs">
 	<div class="carousel-inner span10 offset1">
 		<div class="item active">
 				<ul class="thumbnails">
@@ -291,12 +290,12 @@
 <section class="section2" id="section2"><!--!section2-->
 	<div class="row-fluid wrap">
 					<div class="span5 offset1">
-				<h1>Digital Art:</h1>
+				<h1>Digital Art/Design:</h1>
 				<h2>Course work and more</h2>
 				<p>While a student in the Technology Arts and Media
 			 program at the University of Colorado, Boulder, I worked on many digital art projects. I have selected a few of my favorite pieces from my course work and from my personal work to showcase in this section. </p>
 			</div><!-- end span 5 (left)-->
-			<!--
+		
 <div class="span5">
 			<a href="#launch-digital-art"  class="thumbnail" data-toggle="modal" id="digital-art-thumb"></a>
 			<section id="launch-digital-art" class="modal hide fade">
@@ -309,15 +308,14 @@
 				</div>
 			</section>
 			<h4>click to see detail</h4>
-			</div>
---><!--end div thumbnail-->
+			</div><!--end div thumbnail-->
 
 		
 	</div><!--end row fluid -->
 	<div class="row-fluid wrap" id="section2sub">
 	<h2 class="line-title"><span>Other digital design work</span></h2>
 	<!--! add or delete digital art carousel functionality-->
-	<section class="carousel slide" id="digital-art-thumbs"> <!-- Add when enough thumbnails class="carousel slide"-->
+	<section class="//carousel slide// hidden-phone" id="digital-art-thumbs"> <!-- Add when enough thumbnails class="carousel slide"-->
 	<div class="carousel-inner span10 offset1">
 		<div class="item active">
 				<ul class="thumbnails">
@@ -341,22 +339,22 @@
 					<!--!digital art thumbnail 2 -->
 							<li class="span3">
 						<div class="thumbnail">
-						<a href="#launch-digital-art2" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
+						<a href="#launch-digital-art2" data-toggle="modal"> <img src="img/kgnu1-thumb.png" class="thumbnail" alt="KGNU bouchure"></a>
 							<section id="launch-digital-art2" class="modal hide fade">
 								<header class="modal-header">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h3>Coming Soon</h3>
+										<h3>KGNU Borchure</h3>
 									</header>
 									<div class="modal-body" id="digital-art2">
 									</div>
 							</section>
 
-						<h3>Coming Soon</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<h3>KGNU Brochure</h3>
+						<p>In the spring of 2013 I volunteered for KGNU, a local Boulder community radio station, and designed them a new member brochure. (Both sides seen on hover)</p>
 						</div><!--close thumbnail2 div-->
 					</li>
 					<!--!digital art thumbnail3-->
-							<li class="span3">
+							<li class="hidden span3">
 						<div class="thumbnail">
 						<a href="#launch-digital-art3" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
 							<section id="launch-digital-art3" class="modal hide fade">
@@ -374,7 +372,7 @@
 					</li>
 
 					<!--! digital art thumbnail4-->
-					<li class="span3">
+					<li class="hidden span3">
 						<div class="thumbnail">
 						<a href="#launch-digital-art4" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
 							<section id="launch-digital-art4" class="modal hide fade">
@@ -395,7 +393,7 @@
 				<div class="item"><!--item2-->
 				<ul class="thumbnails">
 					<!--!digital art tumbnail 5 -->
-					<li class="span3">
+					<li class="hidden span3">
 						<div class="thumbnail">
 						<a href="#launch-digital-art5" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
 							<section id="launch-digital-art5" class="modal hide fade">
@@ -412,7 +410,7 @@
 						</div><!--close thumbnail5 div-->
 					</li>				
 					<!--! digital art thumbnail 6 -->
-							<li class="span3">
+							<li class="hidden span3">
 						<div class="thumbnail">
 						<a href="#launch-digital-art6" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
 							<section id="launch-digital-art6" class="modal hide fade">
@@ -429,7 +427,7 @@
 						</div><!--close thumbnail6 div-->
 					</li>			
 					<!--! digital art thumbnail7-->
-							<li class="span3">
+							<li class="hidden span3">
 						<div class="thumbnail">
 						<a href="#launch-digital-art7" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
 							<section id="launch-digital-art7" class="modal hide fade">
@@ -446,7 +444,7 @@
 						</div><!--close thumbnail7 div-->
 					</li>			
 					<!--! digital art thumbnail8-->
-								<li class="span3">
+								<li class="hidden span3">
 						<div class="thumbnail">
 						<a href="#launch-digital-art8" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
 							<section id="launch-digital-art8" class="modal hide fade">
@@ -475,7 +473,7 @@
 	<div class="row-fluid wrap">
 			<div class="span12">
 			<h1>Web Development</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>As of now, this site is the best example of my front-end development work. Some of the other sites I have built are displayed in this section.</p>
 	</div><!--end div intro-->
 	</div>
 	
@@ -485,7 +483,7 @@
 	<div class="row-fluid">
 		<!--!begin professional web-dev section-->
 		
-				<ul class="thumbnails">
+				<section class="thumbnails">
 				
 					<ul class="span6">
 						<li class="span12">
@@ -493,15 +491,9 @@
 						</li>
 						<li class="span12">
 							<div class="thumbnail">
-								<a href="#launch-web-dev-pro1" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
-								<section id="launch-web-dev-pro1" class="modal hide fade">
-									<header class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h3>Coming Soon</h3>
-										</header>
-										<div class="modal-body" id="web-dev-pro1">
-										</div>
-								</section>	
+								<a href="http://www.servehaus.com"> <img src="img/serve-thumb.png" class="thumbnail" alt="serve website"></a>
+								<h3>Serve Beta Site</h3>
+								
 							</div><!--end thumbnail div-->
 						</li>
 					</ul>
@@ -519,30 +511,16 @@
 
 					<li class="span6"><!--!begin web-dev-aca thumb1-->
 						<div class="thumbnail">
-							<a href="#launch-web-dev-aca1" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
-							<section id="launch-web-dev-aca1" class="modal hide fade">
-								<header class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h3>Coming Soon</h3>
-								</header>
-								<div class="modal-body" id="web-dev-aca1">
-								</div>
-							</section>
+							<a href="http://redwood.colorado.edu/emsa7664/capstone/assignment-portal/"> <img src="img/cap-assignments-thumb.png" class="thumbnail" alt="capstone assignment portal"></a> 
+							<h4>Capstone Assignments</h4>
 						</div><!--end thumbnail div-->		
 					</li><!--end web-dev-aca thumb1-->
 
 					
 					<li class="span6"><!--!begin web-dev-aca thumb2-->
 						<div class="thumbnail">
-							<a href="#launch-web-dev-aca2" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
-							<section id="launch-web-dev-aca2" class="modal hide fade">
-								<header class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h3>Coming Soon</h3>
-								</header>
-								<div class="modal-body" id="web-dev-aca2">
-								</div>
-							</section>
+							<a href="http://redwood.colorado.edu/emsa7664/web"> <img src="img/web-assignments-thumb.png" class="thumbnail" alt="Advanced Web Design Assignemtn Portal"></a>
+							<h4>Advanced Web Assignments</h4>
 						</div><!--end thumbnail2 div-->		
 					</li><!--end web-dev-aca thumb2-->
 				</ul>
@@ -550,34 +528,20 @@
 					
 					<li class="span6"><!--!begin web-dev-aca thumb3-->
 						<div class="thumbnail">
-							<a href="#launch-web-dev-aca3" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
-							<section id="launch web-dev-aca3" class="modal hide fade">
-								<header class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h3>Coming Soon</h3>
-								</header>
-								<div class="modal-body" id="web-dev-aca3">
-								</div>
-							</section>
-						</div><!--end thumbnail3 div-->		
+							<a href="http://redwood.colorado.edu/emsa7664/web/about-me.html" > <img src="img/about-me-thumb.png" class="thumbnail" alt="About Me Site"></a>
+							<h4>About Me Site</h4>
+													</div><!--end thumbnail3 div-->		
 					</li><!--end web-dev-aca thumb3-->
 					
 					<li class="span6"><!--!begin web-dev-aca thumb4-->
 						<div class="thumbnail">
-							<a href="#launch-web-dev-aca4" data-toggle="modal"> <img src="img/coming-soon.png" class="thumbnail" alt="TBD"></a>
-							<section id="launch web-dev-aca4" class="modal hide fade">
-								<header class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h3>Coming Soon</h3>
-								</header>
-								<div class="modal-body" id="web-dev-aca4">
-								</div>
-							</section>
-						</div><!--end thumbnail4 div-->		
+							<a href="http://www.redwood.colorado.edu/emsa7664/portfolio"> <img src="img/portfolio-old-thumb.png" class="thumbnail" alt="TAM portal"></a>
+							<h4>TAM portal portfolio</h4>
+													</div><!--end thumbnail4 div-->		
 					</li><!--end web-dev-aca thumb4-->
 
 				</ul>
-			</ul>
+			</section>
 		
 	</div>	
 	</div><!--end row fluid-->
@@ -592,11 +556,16 @@
 		<h1>Mobile App Development</h1>
 	</div><!--end row fluid -->
 </section><!--end section4-->
-<section class="section5"id="section5"><!--!section5-->
+
+
+<!--<section class="section5" id="section5">
 	<div class="row-fluid">
 		<h1>Graphic Design</h1>
-	</div><!--end row fluid -->
-</section><!--end section5-->
+	</div>
+</section>
+-->
+
+
 <section class="section6" id="section6"><!--!section6-->
 	<div class="row-fluid">
 		<h1>Game Development</h1>
