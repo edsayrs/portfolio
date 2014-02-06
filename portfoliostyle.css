@@ -16,6 +16,17 @@ teal-grey:#456e6a
 /*bootstrap overrides----------------------------------bootstrap overrides-----------------------------------bootsrtap overrides----------*/
 
 /* thumbnails overrides */
+
+*{
+margin:0;
+padding:0;
+
+}
+
+body{
+	float:left;
+	min-width:100%;
+}
 :focus{
 	outline:none;
 }
@@ -194,9 +205,9 @@ background-color:rgba(255,255,255,.8);
 
 .carousel{
 	padding-top:150px;
-	padding-top: 30vh;
+	padding-top: 30px;
 	padding-bottom:150px;
-	padding-bottom:30vh;
+	padding-bottom:30px;
 }
 
 .carousel h1,.carousel h2,.carousel h3, .carousel h4, .carousel h5, .carousel h6, .carousel p{
@@ -307,6 +318,10 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform:uppercase;
 }
 
+p{
+	font-size:16px;
+	font-weight:100;
+}
 
 /*elements----------------------------------elements--------------------------------------------elements------------------*/
 
@@ -360,8 +375,8 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	.section1 p{
 		color:white;
-		text-transform: uppercase;
-		font-size: 12px;
+/* 		text-transform: uppercase; */
+		font-size: 16px;
 	}
 	.section1 a:link{
 		color:white;
@@ -489,8 +504,8 @@ very dark grey:#424242
 	}
 	.section2 p{
 		color:white;
-		text-transform: uppercase;
-		font-size: 12px;
+/* 		text-transform: uppercase; */
+		font-size: 16px;
 	}
 	.section2 a:link{
 		color:white;
@@ -604,14 +619,14 @@ line-height:1em;
 }
 .section3 p{
 	color:white;
-	text-transform: uppercase;
+/* 	text-transform: uppercase; */
 }
 .section3 h3, .section3 h4{
 	color:#1b8d82;
 }
 
 .section3 .thumbnail{
-	text-align: center;
+/* 	text-align: center; */
 	float:none;
 }
 .section3 img{
@@ -643,13 +658,32 @@ line-height:1em;
 		text-transform: uppercase;
 		
 	}
-
+.section3 ul{
+	display:inline;
+}
 
 
 
 .section4{
 	background-color: #99c7c2;
 }
+
+/*
+.iphoneApp1{
+	background-image: url("../img/scoreKeepLayers_0000_screen1.png");
+	height:300px;
+	width:auto;
+	background-position:center center;
+	background-size:cover;
+
+}
+*/
+
+.section4 .thumbnails{
+ margin:0;
+	
+}
+
 .section5{
 	background-color: #676187;
 }
@@ -674,14 +708,14 @@ line-height:1em;
 /*   border-bottom: 1px solid white; */
   border-top: 1px solid white;
   top: 0;
-  width: 80%;
+max-width: 80%;
 }
 .line-title span:before {
-  right: 100%;
+  right: 10%;
   margin-right: 15px;
 }
 .line-title span:after {
-  left: 100%;
+  left: 10%;
   margin-left: 15px;
 }
 /*IDs----------------------------------IDs--------------------------------------------IDs------------------*/
@@ -689,17 +723,20 @@ line-height:1em;
 
 #section1sub{
 		background-color: #a59dd1;
-		min-height: 700px;
+		min-height: 500px;
+		max-height:700px;
 	
 	}
 	#section1sub h3{
 		color:#1b8d82;
+		line-height:18px;
+	
 	}
 	#section1sub h2{
 		color:white;
 		text-align: center;
 		font-size: 18px;
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 	}
 	
 #section2sub{
@@ -869,7 +906,7 @@ background-image:url('img/photo-edit8a.png');
 	background-position:center center;
 	background-repeat: no-repeat;
 	background-size:cover;
-	display:block;
+	display:inline-block;
 	margin-left: auto;
 	margin-right:auto;
 	border-color:#456e6a;
@@ -949,6 +986,12 @@ padding-top:50px;
 /* visible tablet */
 @media (min-width:768px) and (max-width:979px){
 
+	body{
+		margin:0;
+		padding:0;
+		min-width:100%;
+		float:left;
+	}
 	.navbar .brand {	
 	  display: inline-block;
 	  vertical-align:middle;
@@ -981,11 +1024,22 @@ padding-top:50px;
 	height:250px;
 	}
 	
+	#section1sub h3{
+		color:#1b8d82;
+		line-height:18px;
+		font-size:16px;
+	}
 }/*end tablet styles*/
 
 /* visible phone */
+
 @media (max-width:767px){
-	
+	body{
+		margin:0;
+		padding:0;
+		min-width:100%;
+		float:left;
+	}
 	.navbar .brand{
 	  display: inline-block;
 	  vertical-align:middle;
@@ -1005,7 +1059,7 @@ padding-top:50px;
 	#photo-edit{
 	display:block;
 	width:100%;
-	height:350px;
+/* 	height:350px; */
 	background-image: url('img/photo-edit1.png');
 	}
 
@@ -1016,7 +1070,7 @@ padding-top:50px;
 	#digital-art-thumb {
 	display:block;
 	width:100%;
-	height:350px;
+/* 	height:350px; */
 
 	}
 }/*end phone styles*/	
